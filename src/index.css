@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Slab", "serif";
+}
+
+p,
+a {
+  font-family: "Raleway", "sans - serif";
+}
+
+@layer components {
+  .align-element {
+    @apply mx-auto max-w-7xl px-8;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .links-container {
+    height: auto !important;
+  }
+}
+
+.hero {
+  background: linear-gradient(rgb(12, 74, 110, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../src/assets/background.jpg) center/cover no-repeat;
+}
+
+.about-img::before {
+  content: "";
+  position: absolute;
+  border: 0.5rem solid rgb(12, 74, 110);
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  top: -1.2rem;
+  left: -1.2rem;
+}
+
+.about-img {
+  position: relative;
+}
+
+.about-photo {
+  position: relative;
+}
+
+nav {
+  z-index: 9;
+}
+
+.slick-prev::before {
+  color: rgb(8, 47, 73) !important;
+  font-size: 1.5rem;
+}
+.slick-next::before {
+  color: rgb(8, 47, 73) !important;
+  font-size: 1.5rem;
+}
