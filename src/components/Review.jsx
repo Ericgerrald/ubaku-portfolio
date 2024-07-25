@@ -32,11 +32,13 @@ const Review = () => {
                     src={img}
                     alt={name}
                   /> */}
-                  <h2 className="font-extrabold text-slate-950 text-lg tracking-wider mb-2">
+                  <h2 className="font-bold text-lg tracking-wider mb-2">
                     {name}
                   </h2>
-                  <p className="text-sm font-bold tracking-wide mb-2">{job}</p>
-                  <p className="text-sm tracking-wide">{quote}</p>
+                  <p className="text-sm italic font-bold tracking-wide mb-2">
+                    {job}
+                  </p>
+                  <p className="text-sm tracking-wide  ">{quote}</p>
                 </article>
               );
             })}
