@@ -23,14 +23,12 @@ const Hero = () => {
               stunning architectural masterpieces.
             </span>
           </p>
-          {/* <p className=" leading-8 tracking-wide text-l ">
-            
-          </p> */}
+
           <div className="pt-8">
             <a
               className=" 
           bg-sky-700 text-sky-200 p-2 pl-4 pr-4 text-lg font-bold rounded-3xl tracking-wider lg:first-letter:hover:bg-sky-300 hover:text-sky-900 cursor-pointer hover:bg-sky-50 "
-              href="mailto:ubakuifeanyi@yahoo.com"
+              href="mailto:ubakuic@gmail.com"
             >
               Get In Touch
             </a>

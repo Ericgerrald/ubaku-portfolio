@@ -37,9 +37,10 @@ const About = () => {
                 Over the past several years, I have honed my skills in project
                 management, team collaboration, and leadership. My ability to
                 manage facilities, conduct site measurements, and lead project
-                developments has been demonstrated in various roles, from Senior
-                Architect at Network Projects Nigeria to Architect/Designer at
-                the Ministry of Housing & Urban Planning in Abia State, Nigeria.
+                developments has been demonstrated in various roles, from
+                Architect/Designer at the Ministry of Housing & Urban Planning
+                in Abia State, Nigeria to Senior Architect at Network Projects
+                Nigeria.
               </p>
             </div>
             <div className="mt-8 text-center">

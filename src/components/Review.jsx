@@ -27,15 +27,15 @@ const Review = () => {
                   className="text-center flex place-items-center "
                   key={id}
                 >
-                  <img
+                  {/* <img
                     className=" mx-auto object-cover w-36 h-36 rounded-full mb-4 border-4 border-sky-950 shadow-md "
                     src={img}
                     alt={name}
-                  />
+                  /> */}
                   <h2 className="font-extrabold text-slate-950 text-lg tracking-wider mb-2">
                     {name}
                   </h2>
-                  <p className="text-sm tracking-wide mb-2">{job}</p>
+                  <p className="text-sm font-bold tracking-wide mb-2">{job}</p>
                   <p className="text-sm tracking-wide">{quote}</p>
                 </article>
               );

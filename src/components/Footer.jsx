@@ -7,7 +7,12 @@ const Footer = () => {
         <p className=" tracking-wider font-bold ">
           &copy; {year} Ubaku Ifeanyi
         </p>
-        <a className="flex gap-1" href="#" target="_blank" rel="noreferrer">
+        <a
+          className="flex gap-1"
+          href="https://www.linkedin.com/in/ifeanyi-ubaku-301838292"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaLinkedin className="h-6 w-6 " />
         </a>
       </div>
